@@ -9,7 +9,7 @@ public class Contractor extends Employee{
 		this.contractorId = contractorId;
 	}
 	
-	public void printVariables(){
+	protected void printVariables(){
 		System.out.println("ssn is now "+ssn+" and salary is now "+salary+" and contractor id is"+contractorId);
 	}
 

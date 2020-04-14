@@ -4,7 +4,11 @@ import com.smoothstack.training.basics.Contractor;
 import com.smoothstack.training.basics.Employee;
 import com.smoothstack.training.basics.HelloWorld;
 
-public class TestProtected extends HelloWorld{
+public class TestProtected extends Contractor{
+
+	public TestProtected(int ssn, int salary, int contractorId) {
+		super(ssn, salary, contractorId);
+	}
 
 	public static void main(String[] args) {
 //		HelloWorld helloWorld = new HelloWorld();	
@@ -12,7 +16,7 @@ public class TestProtected extends HelloWorld{
 //		
 //		emp1.printVariables();
 //		
-		Contractor contractor1 = new Contractor(123, 50, 01);
+		TestProtected contractor1 = new TestProtected(123, 50, 01);
 		contractor1.printVariables();
 	}
 
