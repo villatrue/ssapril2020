@@ -5,7 +5,7 @@ public abstract class AbstractClass {
 	public abstract void abstractMethod();
 	
 	public void nonAbstractmethod(){
-		System.out.println("Hello Git");
+		System.out.println("Hello Git - develop");
 	}
 
 }
