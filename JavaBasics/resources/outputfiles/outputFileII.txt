@@ -1,0 +1,1 @@
+Entering data into file using Scanner system.in.
